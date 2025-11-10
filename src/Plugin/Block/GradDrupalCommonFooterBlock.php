@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\grad_drupal_common_footer\Plugin\Block;
+namespace Uazgraduatecollege\GradDrupalCommonFooter;
 
 use Drupal\Core\Block\BlockBase;
 
