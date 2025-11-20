@@ -9,9 +9,9 @@
  * Implements hook_theme().
  */
 function grad_drupal_common_footer_theme() {
-  $theme['grad_drupal_common_footer'] = [
-    'template' => 'grad_drupal_common_footer',
+  return [
+    'grad_drupal_common_footer_block' => [
+      'variables' => [],
+    ]
   ];
-
-  return $theme;
 }

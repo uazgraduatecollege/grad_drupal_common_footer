@@ -1,6 +1,6 @@
 <?php
 
-namespace Uazgraduatecollege\GradDrupalCommonFooter;
+namespace Drupal\grad_drupal_common_footer\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 
@@ -12,6 +12,7 @@ use Drupal\Core\Block\BlockBase;
  *   admin_label = @Translation("Grad Common Footer"),
  * )
  */
+
 class GradDrupalCommonFooterBlock extends BlockBase {
 
   /**
@@ -19,8 +20,7 @@ class GradDrupalCommonFooterBlock extends BlockBase {
    */
   public function build() {
     return [
-      '#theme' => 'grad_drupal_common_footer',
+      '#theme' => 'grad_drupal_common_footer_block',
     ];
   }
-
 }
