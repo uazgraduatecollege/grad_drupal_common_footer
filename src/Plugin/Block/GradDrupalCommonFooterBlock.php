@@ -12,7 +12,6 @@ use Drupal\Core\Block\BlockBase;
  *   admin_label = @Translation("Grad Common Footer"),
  * )
  */
-
 class GradDrupalCommonFooterBlock extends BlockBase {
 
   /**
@@ -23,4 +22,5 @@ class GradDrupalCommonFooterBlock extends BlockBase {
       '#theme' => 'grad_drupal_common_footer_block',
     ];
   }
+
 }

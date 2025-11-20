@@ -12,6 +12,6 @@ function grad_drupal_common_footer_theme() {
   return [
     'grad_drupal_common_footer_block' => [
       'variables' => [],
-    ]
+    ],
   ];
 }
