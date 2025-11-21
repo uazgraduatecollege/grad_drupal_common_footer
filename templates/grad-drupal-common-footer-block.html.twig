@@ -37,14 +37,11 @@
           <form class="search-form" accept-charset="UTF-8" method="GET" action="https://grad.arizona.edu/tools/search">
             <div class="input-group">
               <label for="grad-common-search" class="sr-only visually-hidden">Search</label>
-              <input id="grad-common-search" name="q" class="form-control" type="text" title="Search all GRAD websites" aria-label="Search all GRAD websites" aria-describedby="search-help" placeholder="Search all GRAD websites" onfocus="this.placeholder=''" onblur="this.placeholder='Search all GRAD websites'">
-              <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper input-group-append" id="edit-actions">
-                <button class="border-0 btn btn-red button form-submit pl-2 pr-2" type="submit" id="search-button">
-                  <span id="search-help" class="sr-only visually-hidden">Search all Graduate College websites</span>
-                  <span class="pl-1 pr-1 material-icons-sharp">search</search>
-                  <!-- <span class="pl-1 pr-1 pb-0 rounded-start-0 material-symbols-rounded">search</search> -->
-                </button>
-              </div>
+              <input id="grad-common-search" name="q" class="form-control rounded-start" type="text" title="Search all GRAD websites" aria-label="Search all GRAD websites" aria-describedby="search-help" placeholder="Search all GRAD websites" onfocus="this.placeholder=''" onblur="this.placeholder='Search all GRAD websites'">
+              <button class="button btn btn-red form-submit rounded-end px-2 pt-2 pb-0" type="submit" id="search-button">
+                <span class="material-symbols-rounded">search</search>
+              </button>
+              <div id="search-help" class="sr-only visually-hidden">Search all Graduate College websites</div>
             </div>
           </form>
         </div>
