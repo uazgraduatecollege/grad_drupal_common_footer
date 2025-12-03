@@ -8,7 +8,7 @@ use Drupal\Core\Block\BlockBase;
  * Provides a Grad Footer Block with common links.
  *
  * @Block(
- *   id = "grad_drupal_common_footer_block",
+ *   id = "grad_common_footer_block",
  *   admin_label = @Translation("Grad Common Footer"),
  * )
  */
